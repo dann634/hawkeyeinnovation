@@ -1,0 +1,20 @@
+#innerRoot {
+    -fx-alignment: center;
+    -fx-padding: 50px;
+    -fx-spacing: 50;
+}
+
+#heading {
+    -fx-font-size: 32;
+    -fx-font-weight: bold;
+}
+
+#points {
+    -fx-font-size: 24;
+}
+
+.button {
+    -fx-min-height: 50;
+    -fx-min-width: 200;
+    -fx-font-size: 18;
+}

@@ -1,0 +1,20 @@
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+#root {
+    -fx-padding: 100;
+}
+
+.button {
+    -fx-min-width: 200;
+    -fx-min-height: 50;
+    -fx-font-size: 18;
+}
+
+#middleVbox {
+    -fx-spacing: 30;
+    -fx-alignment: center;
+}

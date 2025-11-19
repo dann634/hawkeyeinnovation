@@ -1,0 +1,11 @@
+#root {
+    alignment: center;
+}
+
+.button {
+    -fx-min-height: 40;
+    -fx-min-width: 160;
+    -fx-font-size: 18;
+
+
+}
