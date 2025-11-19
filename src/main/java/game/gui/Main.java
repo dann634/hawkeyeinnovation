@@ -26,7 +26,7 @@ public class Main extends Application {
     @Override
     public void start(Stage pstage) throws Exception {
         stage = pstage;
-        stage.setTitle("Hawkeye Innovations Project");
+        stage.setTitle("Hawk-Eye Innovations Project");
         setScene(new MainMenuController());
         stage.setResizable(false);
         stage.show();

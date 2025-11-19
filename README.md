@@ -1,6 +1,6 @@
-# **Hawkeye Innovations – Open Assessment**
+# **Hawk-Eye Innovations – Open Assessment**
 
-This repository contains my implementation for the **Hawkeye Innovations Open Assessment**, featuring both a **CLI version** and a **JavaFX GUI version**.
+This repository contains my implementation for the **Hawk-Eye Innovations Open Assessment**, featuring both a **CLI version** and a **JavaFX GUI version**.
 The project is built using **Java 17** and **Maven**.
 
 ---
@@ -105,6 +105,6 @@ README.md
 
 ## **Notes**
 
-* Both the CLI and GUI versions follow the rules and specifications provided in the Hawkeye Innovations assessment brief.
+* Both the CLI and GUI versions follow the rules and specifications provided in the Hawk-Eye Innovations assessment brief.
 * Code is written following clean architectural practices to ensure readability, separation of concerns, and testability.
 * GUI version uses JavaFX and is run directly via Maven.
