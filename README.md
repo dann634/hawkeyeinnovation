@@ -32,8 +32,8 @@ The CLI version runs directly using Java. Maven is **not** required for this opt
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/dann634/hawkeyeinnovation.git
+cd hawkeyeinnovation/
 ```
 
 ### **2. Compile the Project**
@@ -51,19 +51,14 @@ mvn clean compile
 The main class for the CLI version is:
 
 ```
-game.cards.cli.CLIMain
+game.cli.CLIMain
 ```
 
-Run it using Maven:
-
-```bash
-mvn exec:java -Dexec.mainClass="game.cards.cli.CLIMain"
-```
 
 Or run directly with Java (if you compiled manually):
 
 ```bash
-java -cp target/classes game.cards.cli.CLIMain
+java -cp target/classes game.cli.CLIMain
 ```
 
 ---
@@ -75,8 +70,8 @@ The GUI version requires Maven because the JavaFX plugin manages module dependen
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/dann634/hawkeyeinnovation.git
+cd hawkeyeinnovation
 ```
 
 ### **2. Run the JavaFX GUI**
@@ -97,8 +92,8 @@ src/
     java/
       game/
         cards/
-          cli/        ← CLI entry point (CLIMain)
-          gui/        ← GUI controllers & views
+        cli/        ← CLI entry point (CLIMain)
+        gui/        ← GUI controllers & views
     resources/
 pom.xml
 README.md
